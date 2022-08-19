@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
 // const API_URL = 'http://localhost:8080/api/';
-const API_URL = 'https://alansastre-springboot-psql.herokuapp.com/api/';
+const API_URL = 'https://spring-security--jwt.herokuapp.com/api/';
 
 @Injectable({
   providedIn: 'root'

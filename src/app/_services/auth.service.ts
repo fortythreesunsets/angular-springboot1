@@ -2,7 +2,9 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
-//const AUTH_API = 'http://localhost:8080/api/auth/';
+// Ejecución local
+// const AUTH_API = 'http://localhost:8080/api/auth/';
+// Ejecución en vercel.com
 const AUTH_API = 'https://spring-security--jwt.herokuapp.com/api/auth/';
 
 const httpOptions = {

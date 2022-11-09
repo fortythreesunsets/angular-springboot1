@@ -5,7 +5,7 @@ import { Observable } from 'rxjs';
 // Ejecución local
 // const AUTH_API = 'http://localhost:8080/api/auth/';
 // Ejecución en vercel.com
-const AUTH_API = 'https://spring-security--jwt.herokuapp.com/api/auth/';
+const AUTH_API = 'https://springboot-jwt.up.railway.app/api/auth/';
 
 const httpOptions = {
   headers: new HttpHeaders({ 'Content-Type': 'application/json' })
